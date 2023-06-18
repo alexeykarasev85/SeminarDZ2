@@ -3,7 +3,7 @@
 //782 -> 8
 //918 -> 1
 
-Console.Write("Введите трехзначное число: ");
+Console.Write("Введите трехзначное число:");
 int Value = Convert.ToInt32(Console.ReadLine());
 int Length = Value.ToString().Length;
 if (Length == 3) 
